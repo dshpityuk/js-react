@@ -140,6 +140,7 @@ const bool = false; //! булевые значения - Да или Нет
 //*   push - метод массива, staff - массив внутри обьекта
 //! shopInfo."staff".push('Belucci'); // ✅ добавляем в массив "staff"
 // -----------------------------------------------------------------
+
 //* Урок 5 - Простое общение с пользователями
 
 // alert('Hello, world!');
@@ -173,5 +174,23 @@ const bool = false; //! булевые значения - Да или Нет
 
 //* Урок 7 - Операторы в JS
 
-console.log('arr' + " - object");
-console.log(4 + + " - 5");
+// console.log('arr' + " - object");
+// console.log(4 + +"5");
+
+let incr = 10,
+    decr = 10;
+
+// incr++;
+// decr--;
+
+console.log(incr++, decr--);
+
+// console.log(5%2);
+
+// && - и (когда 2 true, к примеру)
+// || - или (когда одно или другое true)
+
+const isChecked = true,
+      isClose = true;
+
+console.log(isChecked && isClose);
